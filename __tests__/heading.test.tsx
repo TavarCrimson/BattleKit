@@ -1,5 +1,6 @@
 ﻿import { render, screen } from '@testing-library/react';
 import Heading from '../components/Heading';
+import Home from '../src/app/page';
 
 test('renders BattleKit heading', () => {
   render(<Heading />);
