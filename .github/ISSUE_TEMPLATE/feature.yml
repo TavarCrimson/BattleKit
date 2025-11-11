@@ -1,0 +1,23 @@
+name: Feature request
+description: Create a small, shippable task with tests
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: Goal
+      description: One-sentence outcome this issue should achieve.
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance Criteria
+      description: Bullet list of verifiable outcomes.
+  - type: textarea
+    id: testplan
+    attributes:
+      label: Test Plan
+      description: How CI proves it works (unit/integration).
+  - type: textarea
+    id: scope
+    attributes:
+      label: Out of Scope
+      description: What is explicitly excluded from this issue.
